@@ -16,8 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/products/search/{name}',[ProductsController::class,'search']);
 Route::resource('products',ProductsController::class);
-// Route::get('/products',[ProductsController::class,'index']);
-// Route::post('/products',[ProductsController::class,'store']);
 
 
 
